@@ -1,0 +1,452 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+/* ----- General properties------*/
+*::selection
+{
+    background: #eb5635;
+}
+
+
+/*//////////////\\\\\\\\\\\\\\*/
+/*------Section A --------*/
+/*
+.hero .container{
+    padding-left: 360px;
+    padding-top: 65px;
+}
+*/
+.hero{
+    padding-top: 70px;
+    background-color: #161b29
+}
+.hero .container{
+    background-color: #161b29;
+}
+nav
+{
+    width: auto;
+    padding-top: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+nav .logo
+{
+    margin-left: 80px;
+    float: left;
+}
+nav .menuBar{
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+}
+
+.menuBar ul
+{
+    list-style-type: none;
+}
+.menuBar ul li
+{
+    display: inline-block;
+    text-align: center
+}
+.menuBar ul li a
+{
+    margin: 0 20px;
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 15px;
+    border: 0.5px solid transparent;
+}
+.menuBar ul li a:hover
+{
+    color: #d89b64;
+    border: 0.5px solid #1e2635;
+}
+/*
+.offersSub.zoom{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+*/
+
+.hero .slideShow{
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: transparent;
+}
+.hero .slideShow .imgBox{
+    margin: 0 auto;
+    text-align: center;
+    width: 690px;
+}
+.hero .slideShow .imgBox img{
+    display: inline-block;
+    margin: 0 auto;
+    width: 690px;
+}
+.hero .slideShow button{
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.hero .slideShow #prev{
+    margin-top: 185px;
+    margin-left: 50px;
+    float: left;
+    font-size: 100px;
+    color: #1e2635;
+}
+.hero .slideShow #next{
+    margin-top: -260px;
+    margin-right: 50px;
+    float: right;
+    font-size: 100px;
+    color: #1e2635;
+}
+.hero .bookTable{
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+}
+.hero .bookTable .leftDiv{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+.hero .bookTable .leftDiv a{
+    display: block;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+    width: 20px;
+    text-align: left;
+    border: 1.2px solid transparent;
+    box-sizing: border-box;
+}
+.hero .bookTable .leftDiv a:hover{
+    color: #d89b64;
+    border-bottom: 1.2px solid #d89b64;
+}
+.hero .bookTable .rightDiv{
+    width: 30%;
+    text-align: right;
+    float: right;
+    box-sizing: border-box;
+}
+.hero .bookTable .rightDiv a{
+    margin-right: 95px;
+    margin-top: 150px;
+    width: 230px;
+    height: 65px;
+    border: 0.5px solid #1e2635;
+    text-align: center;
+    line-height: 65px;
+    float: right;
+    box-sizing: border-box;
+}
+.hero .bookTable .rightDiv a:hover{
+    color: #d89b64
+}
+.hero .bookTable .midDiv{
+    margin-top: 150px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+.hero .bookTable .midDiv p{
+    color: #485471;
+    box-sizing: border-box;
+}
+.hero .bookTable .midDiv a{
+    margin-top: 20px;
+    color: #485471;
+    font-weight: lighter;
+    font-size: 50px;
+}
+/*//////////////\\\\\\\\\\\\\\\\\\*/
+/*------Section B -----------*/
+
+.perfection{
+    padding-top: 95px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+.perfection .title{
+    margin-bottom: 65px;
+    text-align: center;
+    height: auto;
+}
+.perfection .title p{
+    margin-top: 40px;
+    margin-bottom: 110px;
+    color: #abafb8;
+    font-size: 24px;
+}
+.perfection .offers{
+    width: 100%;
+    background-color: #fff;
+}
+.perfection .offers .offersSub:nth-child(1){
+    position: relative;
+    margin-right: 25px;
+    background-image: url(../img/perfection/desserts.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.perfection .offers .offersSub:nth-child(2){
+    position: relative;
+    margin-right: 25px;
+    background-image: url(../img/perfection/smoothies.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.perfection .offers .offersSub:nth-child(3){
+    position: relative;
+    background-image: url(../img/perfection/breakfast.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.perfection .offers .offersSub h2{
+    margin-top: 200px;
+    padding-bottom: 70px;
+    color: #d89b64;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.perfection .offers .offersSub p{
+    color: #abafb8;
+    text-align: center;
+    font-size: 24px;
+}
+.perfection .CheckLink{
+    text-align: center;
+}
+.perfection .CheckLink a{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.perfection .CheckLink a:hover{
+    color: #d89b64;
+    border-bottom: 1px solid #d89b64
+}
+
+/*////////\\\\\\\\\\\*/
+/*----------------*/
+.details .container{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url(../img/offers/background-offers.png);
+    background-position: center;
+    background-size: cover;
+}
+.details .container .form{
+    margin: 0 auto;
+    padding: 40px 60px;
+    width: 775px;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.details .container .form .box{
+    height: 100%;
+    border: 1px solid #777;
+    box-sizing: border-box
+}
+.details .container .form h2{
+    padding-top: 70px;
+    text-transform: uppercase;
+}
+.details .container .form p{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-size: 18px;
+    color: #777
+}
+.details .container .form .box a{
+    margin-bottom: 70px;
+    padding: 20px 40px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #d89b64;
+    font-size: 18px;
+    color: #d89b64;
+    cursor: pointer;
+}
+
+.howToReach{
+    
+}
+.howToReach{
+    padding-top: 95px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+.howToReach .title{
+    margin-bottom: 65px;
+    text-align: center;
+    height: auto;
+}
+.howToReach .title p{
+    margin-top: 40px;
+    margin-bottom: 110px;
+    color: #abafb8;
+    font-size: 24px;
+}
+.howToReach .offers{
+    width: 100%;
+    background-color: #fff;
+}
+.howToReach .offers .offersSub:nth-child(1){
+    position: relative;
+    margin-right: 25px;
+    background-image: url(../img/offers/532.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.howToReach .offers .offersSub:nth-child(2){
+    position: relative;
+    margin-right: 25px;
+    background-image: url(../img/offers/532.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.howToReach .offers .offersSub:nth-child(3){
+    position: relative;
+    background-image: url(../img/offers/532.png);
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 490px;
+    float: left;
+}
+.howToReach .offers .offersSub h2{
+    margin-top: 200px;
+    padding-bottom: 70px;
+    color: #d89b64;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.howToReach .offers .offersSub p{
+    color: #abafb8;
+    text-align: center;
+    font-size: 24px;
+}
+.howToReach .CheckLink{
+    text-align: center;
+}
+.howToReach .CheckLink a{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.howToReach .CheckLink a:hover{
+    color: #d89b64;
+    border-bottom: 1px solid #d89b64
+}
+.head .box{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.head .simpleLogo{
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 0.5px solid #999;
+    background-color: #fff;
+/*
+    background-image: url(../img/logo/Logo-02.png);
+    background-position: center;
+    background-size: contain;
+*/
+}
+.head .simpleLogo img{
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.head .box:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #999;
+    width: 100%;
+    height: 2px;
+}
+.head .boxTitle{
+    text-align: center;
+}
+.head .boxTitle h4{
+    margin-top: 100px;
+    color: #777;
+    font-size: 20px;
+}
+
+footer {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 45px;
+}
+footer .socialLinks{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 300px;
+    border-top: 1px solid #aaa;
+}
+footer .socialLinks a{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    border: 0.5px solid #ddd;
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+footer p{
+    text-align: center;
+    margin-top: 10px;
+    color: #444;
+    font-size: 18px;
+}
